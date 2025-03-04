@@ -69,10 +69,12 @@ input{
     
 }
 input:focus{
-    border: none;
+  
+    outline: none;
     border: 5px solid #00C4F5;
 }
 
 input::placeholder{
     color: rgba(149, 237, 237,0.9);
+    border: none;
 }
